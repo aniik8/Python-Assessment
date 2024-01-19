@@ -102,3 +102,20 @@ Press "enter" to confirm
 Press "any key" to decline
 ```
 
+```
+project_root/
+│
+├── main.py
+│
+├── modules/
+│   ├── __init__.py
+│   ├── welcome.py
+│   ├── manager.py
+│   ├── status.py
+│   └── tasks.py
+│
+├── data/
+    ├── remaining.txt
+    └── completed.txt
+
+```
