@@ -7,8 +7,11 @@ Functions:
 - delete_task(task): Delete a task from the TO-DO list.
 - completed_task(task): Mark a task as completed in the TO-DO list.
 """
+
 REMAINING_FILE_PATH = "data/remaining.txt"
 COMPLETED_FILE_PATH = "data/completed.txt"
+
+
 def add_task(task):
     """
     Add a new task to the TO-DO list.
@@ -20,6 +23,7 @@ def add_task(task):
     adding_file.close()
     print("Added todo: " + added_task)
 
+
 def show_remaining():
     """
     Show the remaining tasks in the TO-DO list.
@@ -29,6 +33,7 @@ def show_remaining():
     for i in range(len(tasks) - 1, -1, -1):
         print("[" + str(i + 1) + "] " + tasks[i])
     remaining_file.close()
+
 
 def delete_task(deleted_task):
     """
