@@ -7,8 +7,8 @@ Functions:
 - delete_task(task): Delete a task from the TO-DO list.
 - completed_task(task): Mark a task as completed in the TO-DO list.
 """
-REMAINING_FILE_PATH = "/home/unthinkable-lap/Documents/python-assignment2/data/remaining.txt"
-COMPLETED_FILE_PATH = "/home/unthinkable-lap/Documents/python-assignment2/data/completed.txt"
+REMAINING_FILE_PATH = "data/remaining.txt"
+COMPLETED_FILE_PATH = "data/completed.txt"
 def add_task(task):
     """
     Add a new task to the TO-DO list.

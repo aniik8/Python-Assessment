@@ -2,7 +2,11 @@ A command-line program that lets you manage your todos.
 
 - It uses file handling hence, the tasks are preserved for the next time you open the application.
 
+- To run the application, use the following command
+```
+python3 main.py
 
+```
 ## Usage
 
 ### 1. Help
@@ -102,6 +106,8 @@ Press "enter" to confirm
 Press "any key" to decline
 ```
 
+
+Folder structure
 ```
 project_root/
 │
